@@ -1,0 +1,5 @@
+.text-input {
+    -fx-text-fill: #fafafa; /*    цвет текста*/
+    -fx-control-inner-background: #343434; /*    цвет заливки внутри самого поля*/
+    -fx-prompt-text-fill: #a1a1a1; /*    цвет текста в качестве подсказки*/
+}

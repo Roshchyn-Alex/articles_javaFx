@@ -1,0 +1,25 @@
+/*для всех полей*/
+.text-input {
+    -fx-text-fill: #fafafa; /*    цвет текста*/
+    -fx-background-color: #343434; /*    цвет заднего фона*/
+    -fx-border-color: #fafafa; /*    цвет обводки*/
+    -fx-border-radius: 10;
+    -fx-padding: 10 20; /* отсутпы 10 сверху и снизу, 20 по бокам*/
+}
+.text-input:focused { /*  сработает, когда нажим на текст полу*/
+    -fx-border-color: #e06249;
+}
+.link:hover {
+    -fx-text-fill: #e06249; /*    при наведении на ссылку цвет текста*/
+}
+.button{
+    -fx-background-color: #e06249; /*    цвет заднего фона*/
+    -fx-border-radius: 10;
+    -fx-padding: 10 20; /* отсутпы 10 сверху и снизу, 20 по бокам*/
+}
+.button:hover {
+    -fx-translate-y: -5; /* поднимаем кнопку на 5 пикселей*/
+}
+.button:pressed { /* 'эффект при нажатии'*/
+    -fx-background-color: #b04ba0;
+}
